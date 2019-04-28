@@ -1,0 +1,11 @@
+{ 
+  "name": 
+  "BotTest", 
+  "version": "0.0.1", 
+  "dependencies": { 
+    "express": "2.5.x"
+   },
+   "engines": {
+   "node": "10.15.3" 
+  }
+}
