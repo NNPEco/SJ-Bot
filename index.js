@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const Commands = require('./command/maincmd.js'); 
 const discordclient = new Discord.Client({disableEveryone: true});
 var prefix = ('-');
 discordclient.on("message", message => {
@@ -8,7 +9,7 @@ discordclient.on("message", message => {
     const command = args.shift().toLowerCase();
     if (message.content.indexOf(prefix) == -1) return;
     discordclient.user.setActivity('반갑습니다!!');
-    //Commands.allcmd(discordclient,message,ch,aut,command,args,Discord);
+    Commands.allcmd(discordclient,message,ch,aut,command,args,Discord);
     
 });
 discordclient.on('guildMemberAdd', member => {
