@@ -3,7 +3,7 @@
   "BotTest", 
   "version": "0.0.1", 
   "dependencies": { 
-    "express": "2.5.x"
+    "discord.js": "^11.3.2"
    },
    "engines": {
    "node": "10.15.3" 
